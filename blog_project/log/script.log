@@ -1,0 +1,400 @@
+2017-05-13 11:33:35,306 [Thread-3:140440014436096] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-13 11:33:35,317 [Thread-4:140440005519104] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-13 11:33:35,329 [Thread-5:140440014436096] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-13 11:33:35,341 [Thread-6:140439793432320] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-13 11:33:35,422 [Thread-7:140439793432320] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-13 11:33:35,571 [Thread-8:140439793432320] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-13 11:33:35,646 [Thread-9:140439793432320] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-13 11:33:35,660 [Thread-10:140440014436096] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-13 11:33:35,673 [Thread-11:140440005519104] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-13 11:33:35,683 [Thread-12:140439785039616] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-13 11:53:14,640 [Thread-2:139640916526848] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yuejin/Documents/learn/django_demo/blog_project/blog/views.py", line 18, in index
+    return render(request,'index.html',locals())
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/template/loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/template/backends/django.py", line 74, in render
+    return self.template.render(context)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/template/base.py", line 208, in render
+    with context.bind_template(self):
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/template/context.py", line 235, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes no arguments (1 given)
+2017-05-13 11:53:50,529 [Thread-3:139750011614976] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-13 11:53:50,549 [Thread-4:139750002697984] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-13 11:53:50,560 [Thread-5:139750011614976] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-13 11:53:50,567 [Thread-6:139749994305280] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-13 11:53:50,578 [Thread-7:139749780092672] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-13 11:53:50,771 [Thread-8:139749780092672] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-13 11:53:50,954 [Thread-9:139749780092672] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-13 11:53:50,962 [Thread-10:139749994305280] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-13 11:53:50,972 [Thread-11:139750011614976] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-13 11:53:50,975 [Thread-12:139749780092672] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-13 11:56:13,437 [Thread-14:139749780092672] [django.request:170] [base:get_response] [WARNING]- Not Found: /index.html
+2017-05-15 14:19:46,112 [Thread-3:140326904801024] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-15 14:19:46,123 [Thread-4:140326896408320] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-15 14:19:46,132 [Thread-5:140326888015616] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-15 14:19:46,136 [Thread-6:140326879622912] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-15 14:19:46,181 [Thread-7:140326879622912] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-15 14:19:46,484 [Thread-8:140326879622912] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-05-15 14:19:46,589 [Thread-9:140326879622912] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-05-15 14:19:46,609 [Thread-11:140326896408320] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-05-15 14:19:46,595 [Thread-10:140326888015616] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-05-15 14:19:46,617 [Thread-12:140326904801024] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-05-15 14:19:47,067 [Thread-13:140326888015616] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-05-15 14:19:47,119 [Thread-14:140326888015616] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-05-15 14:20:25,739 [Thread-48:140326862837504] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /admin/login/
+2017-05-15 14:20:32,296 [Thread-49:140326862837504] [django.request:98] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /admin/login/
+2017-05-15 14:27:34,657 [Thread-12:140406901696256] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/category/
+Traceback (most recent call last):
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/utils/decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/utils/decorators.py", line 34, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/utils/decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/utils/decorators.py", line 30, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1548, in changelist_view
+    self.list_max_show_all, self.list_editable, self)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/contrib/admin/views/main.py", line 82, in __init__
+    self.get_results(request)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/contrib/admin/views/main.py", line 177, in get_results
+    result_count = paginator.count
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/paginator.py", line 72, in _get_count
+    self._count = self.object_list.count()
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/models/query.py", line 318, in count
+    return self.query.get_count(using=self.db)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 464, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 445, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 840, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/utils.py", line 97, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'blogdb.blog_category' doesn't exist")
+2017-05-15 14:27:39,852 [Thread-13:140406901696256] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/links/
+Traceback (most recent call last):
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/utils/decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/utils/decorators.py", line 34, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/utils/decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/utils/decorators.py", line 30, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1548, in changelist_view
+    self.list_max_show_all, self.list_editable, self)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/contrib/admin/views/main.py", line 82, in __init__
+    self.get_results(request)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/contrib/admin/views/main.py", line 177, in get_results
+    result_count = paginator.count
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/paginator.py", line 72, in _get_count
+    self._count = self.object_list.count()
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/models/query.py", line 318, in count
+    return self.query.get_count(using=self.db)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 464, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 445, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 840, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/utils.py", line 97, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'blogdb.blog_links' doesn't exist")
+2017-05-15 14:27:50,098 [Thread-15:140406910088960] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/ad/
+Traceback (most recent call last):
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/utils/decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/utils/decorators.py", line 34, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/utils/decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/utils/decorators.py", line 30, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1548, in changelist_view
+    self.list_max_show_all, self.list_editable, self)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/contrib/admin/views/main.py", line 82, in __init__
+    self.get_results(request)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/contrib/admin/views/main.py", line 177, in get_results
+    result_count = paginator.count
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/paginator.py", line 72, in _get_count
+    self._count = self.object_list.count()
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/models/query.py", line 318, in count
+    return self.query.get_count(using=self.db)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 464, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 445, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 840, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/utils.py", line 97, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'blogdb.blog_ad' doesn't exist")
+2017-05-15 14:28:50,584 [Thread-17:140406910088960] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/
+Traceback (most recent call last):
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/utils/decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/utils/decorators.py", line 34, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/utils/decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/utils/decorators.py", line 30, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1548, in changelist_view
+    self.list_max_show_all, self.list_editable, self)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/contrib/admin/views/main.py", line 82, in __init__
+    self.get_results(request)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/contrib/admin/views/main.py", line 177, in get_results
+    result_count = paginator.count
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/paginator.py", line 72, in _get_count
+    self._count = self.object_list.count()
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/models/query.py", line 318, in count
+    return self.query.get_count(using=self.db)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 464, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 445, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 840, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/utils.py", line 97, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute
+    return self.cursor.execute(query, args)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'blogdb.blog_article' doesn't exist")
+2017-05-15 14:47:57,914 [Thread-53:139633832351488] [django.request:170] [base:get_response] [WARNING]- Not Found: /news.html
+2017-05-21 11:49:36,776 [Thread-13:140676419286784] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-05-21 11:49:36,816 [Thread-14:140676419286784] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-06-03 01:24:19,586 [Thread-25:140009989539584] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-06-03 01:24:19,640 [Thread-26:140009989539584] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-06-03 12:35:56,813 [Thread-3:140029744408320] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-06-03 12:35:56,858 [Thread-4:140029744408320] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-06-04 11:15:27,438 [Thread-3:139662661265152] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-06-04 11:15:27,507 [Thread-4:139662661265152] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-06-04 14:00:51,118 [Thread-2:139851848292096] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /test/44
+Traceback (most recent call last):
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 647, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 522, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/yuejin/Documents/learn/django_demo/blog_project/blog_project/urls.py", line 19, in <module>
+    from blog.views import index
+  File "/home/yuejin/Documents/learn/django_demo/blog_project/blog/views.py", line 21
+SyntaxError: Non-ASCII character '\xe5' in file /home/yuejin/Documents/learn/django_demo/blog_project/blog/views.py on line 21, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+2017-06-04 15:05:12,142 [Thread-2:140438125852416] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/yuejin/Documents/learn/django_demo/blog_project/blog_project/urls.py", line 19, in <module>
+    from blog.views import index
+  File "/home/yuejin/Documents/learn/django_demo/blog_project/blog/views.py", line 20
+SyntaxError: Non-ASCII character '\xe5' in file /home/yuejin/Documents/learn/django_demo/blog_project/blog/views.py on line 20, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+2017-06-04 15:05:13,276 [Thread-3:140438125852416] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 647, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 522, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/yuejin/Documents/learn/django_demo/blog_project/blog_project/urls.py", line 19, in <module>
+    from blog.views import index
+  File "/home/yuejin/Documents/learn/django_demo/blog_project/blog/views.py", line 20
+SyntaxError: Non-ASCII character '\xe5' in file /home/yuejin/Documents/learn/django_demo/blog_project/blog/views.py on line 20, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+2017-06-04 15:05:13,620 [Thread-4:140438048601856] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 647, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 522, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/yuejin/Documents/vir_dir/django1.8_python2.7/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/yuejin/Documents/learn/django_demo/blog_project/blog_project/urls.py", line 19, in <module>
+    from blog.views import index
+  File "/home/yuejin/Documents/learn/django_demo/blog_project/blog/views.py", line 20
+SyntaxError: Non-ASCII character '\xe5' in file /home/yuejin/Documents/learn/django_demo/blog_project/blog/views.py on line 20, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+2017-07-03 09:22:10,546 [Thread-2:140422700697344] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 368, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 368, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 240, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 60, in __init__
+    self.view_name = ':'.join(self.namespaces + [view_path])
+TypeError: sequence item 0: expected string or Unicode, function found
+2017-07-03 09:22:10,936 [Thread-3:140422692304640] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-07-03 10:23:15,736 [Thread-34:139923172468480] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dingyuejin/Documents/learn/blog_project/blog/views.py", line 36, in index
+    return render(request,'index.html',locals())
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 74, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 209, in render
+    return self._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 79, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 79, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 79, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 217, in render
+    nodelist.append(node.render(context))
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'article' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
