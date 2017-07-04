@@ -58,7 +58,7 @@ def archive(request):
         logger.error(e)
     return render(request,'archive.html',locals())
 
-def tag(request):
+def tag(request,pk):
     try:
         tag=request.GET.get('tag',None)
         tag=Tag.objects.get(name=tag)
