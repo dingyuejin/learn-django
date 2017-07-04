@@ -54,8 +54,8 @@ class ArticleManager(models.Manager):
         date_list=self.values('date_publish')
         for date in date_list:
             publsh_distinct_date=date['date_publish'].strftime('%Y/%m文章存档')
-            if date not in publsh_distinct_date_list:
-                publsh_distinct_date_list.append(date)
+            if publsh_distinct_date not in publsh_distinct_date_list:
+                publsh_distinct_date_list.append(publsh_distinct_date)
         return publsh_distinct_date_list
 
 # 文章模型

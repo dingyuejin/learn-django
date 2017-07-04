@@ -25,12 +25,15 @@ def global_setting(request):
     return {'SITE_NAME':settings.SITE_NAME,
             'SITE_DESC':settings.SITE_DESC,
             'category_list':category_list,
+            'tag_list':tag_list,
+            'archive_list':archive_list
             }
 
 def index(request):
     try:
         article_list = Article.objects.all()
         article_list = getPage(request, article_list)
+
     except Exception,e:
         logger.error(e)
     return render(request,'index.html',locals())
@@ -49,16 +52,21 @@ def archive(request):
     try:
         year=request.GET.get('year',None)
         month=request.GET.get('month',None)
-        article_list=Article.objects.filter(date_publish_icontains=year+'-'+month)
+        article_list=Article.objects.filter(date_publish__icontains=year+'-'+month)
         article_list=getPage(request,article_list)
     except Exception,e:
         logger.error(e)
     return render(request,'archive.html',locals())
 
-# def tag(request):
-#     try:
-#         tag=request.GET.get('id',None)
-
+def tag(request):
+    try:
+        tag=request.GET.get('tag',None)
+        tag=Tag.objects.get(name=tag)
+        article_list=tag.article_set.all()
+        article_list = getPage(request, article_list)
+    except Exception,e:
+        logger.error(e)
+    return render(request, 'tag.html', locals())
 
 
 def do_login(request):
