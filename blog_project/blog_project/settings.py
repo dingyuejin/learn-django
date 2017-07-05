@@ -120,6 +120,7 @@ MEDIA_ROOT=os.path.join(BASE_DIR,'uploads')
 AUTH_USER_MODEL = 'blog.User'
 
 #网站的基本信息
+SITE_URL = 'http://localhost:8000/'
 SITE_NAME='进的个人微博'
 SITE_DESC='可爱的进进的动态'
 PRO_EMAIL='2498596694@qq.com'

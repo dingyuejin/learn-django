@@ -1,0 +1,18 @@
+2017-07-05 06:41:35,661 [Thread-2:139738694969088] [blog_app.views:82] [views:article] [ERROR]- id() takes exactly one argument (0 given)
+2017-07-05 06:41:59,665 [Thread-2:140276176402176] [blog_app.views:82] [views:article] [ERROR]- id() takes exactly one argument (0 given)
+2017-07-05 06:43:12,761 [Thread-2:140130642593536] [blog_app.views:83] [views:article] [ERROR]- id() takes exactly one argument (0 given)
+2017-07-05 06:44:06,144 [Thread-2:139724863555328] [blog_app.views:84] [views:article] [ERROR]- id() takes exactly one argument (0 given)
+2017-07-05 07:48:10,522 [Thread-9:140370000213760] [blog_app.views:96] [views:article] [ERROR]- hasattr(): attribute name must be string
+2017-07-05 07:48:32,554 [Thread-12:140370348734208] [blog_app.views:96] [views:article] [ERROR]- hasattr(): attribute name must be string
+2017-07-05 07:49:23,115 [Thread-20:140370348734208] [blog_app.views:96] [views:article] [ERROR]- hasattr(): attribute name must be string
+2017-07-05 07:55:37,873 [Thread-2:140132991067904] [blog_app.views:96] [views:article] [ERROR]- 'Comment' object has no attribute 'children_comment'
+2017-07-05 07:56:12,075 [Thread-5:140132981888768] [blog_app.views:96] [views:article] [ERROR]- 'Comment' object has no attribute 'children_comment'
+2017-07-05 07:57:02,663 [Thread-7:140132991067904] [blog_app.views:96] [views:article] [ERROR]- 'Comment' object has no attribute 'children_comment'
+2017-07-05 07:57:19,496 [Thread-2:140693773772544] [blog_app.views:96] [views:article] [ERROR]- 'Comment' object has no attribute 'children_comment'
+2017-07-05 07:57:21,337 [Thread-3:140693765379840] [blog_app.views:96] [views:article] [ERROR]- 'Comment' object has no attribute 'children_comment'
+2017-07-05 11:30:10,740 [Thread-2:140276172220160] [blog_app.views:184] [views:logout] [ERROR]- maximum recursion depth exceeded while calling a Python object
+2017-07-05 11:30:10,769 [Thread-2:140276172220160] [blog_app.views:184] [views:logout] [ERROR]- maximum recursion depth exceeded while calling a Python object
+2017-07-05 11:30:10,770 [Thread-2:140276172220160] [blog_app.views:184] [views:logout] [ERROR]- maximum recursion depth exceeded
+2017-07-05 11:30:10,772 [Thread-2:140276172220160] [blog_app.views:184] [views:logout] [ERROR]- maximum recursion depth exceeded
+2017-07-05 11:30:10,773 [Thread-2:140276172220160] [blog_app.views:184] [views:logout] [ERROR]- maximum recursion depth exceeded in cmp
+2017-07-05 11:32:39,195 [Thread-18:140276154124032] [blog_app.views:124] [views:comment_post] [ERROR]- 'content'
